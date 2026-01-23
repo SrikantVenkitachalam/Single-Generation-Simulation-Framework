@@ -17,7 +17,6 @@ The plots are generated for the following outcomes of crowding:
     e) Variance in Mass at wandering
     
 
-NOTE: Please change the required directories for saving/reading data!!!
 '''
 
 import pandas as pd
@@ -25,13 +24,11 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
 
-Total_Data = pd.read_excel('G:/My Drive/EBL - Ph.D/Simulations/SingleGen for Manuscript/Results/Compiled_Total30.xlsx', sheet_name = 'TotalData')
+Total_Data = pd.read_excel('Results/Compiled_Total30.xlsx', sheet_name = 'TotalData')
 
+# Arial font used for manuscript plots
 
-# Total_Data['vWander'] = np.log(Total_Data['vWander'])
-# Total_Data['vMass'] = np.log(Total_Data['vMass'])
-
-sns.set_theme(style='white', font = 'Arial', rc = {
+sns.set_theme(style='white',rc = {
     'axes.spines.right' : False,
     'axes.spines.top' : False,
     'xtick.bottom' : True,
@@ -189,19 +186,17 @@ ax3[1, 0].set_ylabel("Variance Time to Wandering (hrs^2)")
 ax4[1, 0].set_ylabel("Mean Dry Mass (ug)")
 
 ax5[1, 0].set_ylabel("Variance Dry Mass (ug^2)")
-# fig1.tight_layout()
 
 
-# fig1.savefig('G:/My Drive/EBL - Ph.D/Simulations/SingleGen for Manuscript/Results/Plots/SurvFullFrame.png', dpi=300)
+# fig1.savefig('Results/Plots/SurvFullFrame.png', dpi=300)
 
-# fig2.savefig('G:/My Drive/EBL - Ph.D/Simulations/SingleGen for Manuscript/Results/Plots/MDevFullFrame.png', dpi=300)
+# fig2.savefig('Results/Plots/MDevFullFrame.png', dpi=300)
 
-# fig3.savefig('G:/My Drive/EBL - Ph.D/Simulations/SingleGen for Manuscript/Results/Plots/VDevFullFrame.png', dpi=300)
+# fig3.savefig('Results/Plots/VDevFullFrame.png', dpi=300)
 
-# fig4.savefig('G:/My Drive/EBL - Ph.D/Simulations/SingleGen for Manuscript/Results/Plots/MMassFullFrame.png', dpi=300)
+# fig4.savefig('Results/Plots/MMassFullFrame.png', dpi=300)
 
-# fig5.savefig('G:/My Drive/EBL - Ph.D/Simulations/SingleGen for Manuscript/Results/Plots/VMassFullFrame.png', dpi=300)
-
+# fig5.savefig('Results/Plots/VMassFullFrame.png', dpi=300)
 
 
 
