@@ -14,7 +14,6 @@ The following are plotted for the generated data:
     Digging depth given various criteria.
     Surface area occupancy of the food cross-section vs. total larval cross-section surface area.
 
-NOTE: Please change the required directories for saving/reading data!!!
 '''
 
 import numpy as np
@@ -70,14 +69,7 @@ Cult3mLDeep.Add_eggs(Eggs, Trait_array, calibrated_min_crit = 180,
 Cult3mLDeep.Culture_run(Time, Conditions, 
                          StartSA = 0.015, GrowSA = 0.002, Excrete_timer=1)
 
-# Dev = CultureDemo.Dev_time
-# Final_mass = CultureDemo.Mass_profile[-1]
-# Mort = CultureDemo.Mort_time
 
-
-# Massarray = CultureDemo.Mass_profile
-# Mass_mean = np.mean(Massarray, axis=1)
-# Mass_std = np.std(Massarray, axis=1)
 
 ########## Shallow ##########################################################
 
@@ -120,7 +112,9 @@ LSA_totalDeep = Cult3mLDeep.L_SA_total
 ######################## PLOTS ##############################################
 #############################################################################
 
-sns.set_theme(style='white', font = 'Arial', rc = {
+# Arial font used for manuscript
+
+sns.set_theme(style='white', rc = {
     'axes.spines.right' : False,
     'axes.spines.top' : False,
     'xtick.bottom' : True,
@@ -287,15 +281,15 @@ fig3b.suptitle('Deep')
 
 ################# SAVES #####################################################
 
-# fig1a.savefig('/Results/Plots/WastePermShallow.png', dpi=300)
+# fig1a.savefig('Results/Plots/WastePermShallow.png', dpi=300)
 
-# fig1b.savefig('/Results/Plots/WastePermDeep.png', dpi=300)
+# fig1b.savefig('Results/Plots/WastePermDeep.png', dpi=300)
 
-# fig2a.savefig('/Results/Plots/DigDepthShallow.png', dpi=300)
+# fig2a.savefig('Results/Plots/DigDepthShallow.png', dpi=300)
 
-# fig2b.savefig('/Results/Plots/DigDepthDeep.png', dpi=300)
+# fig2b.savefig('Results/Plots/DigDepthDeep.png', dpi=300)
 
-# fig3a.savefig('/Results/Plots/SAOccShallow.png', dpi=300)
+# fig3a.savefig('Results/Plots/SAOccShallow.png', dpi=300)
 
-# fig3b.savefig('/Results/Plots/SAOccDeep.png', dpi=300)
+# fig3b.savefig('Results/Plots/SAOccDeep.png', dpi=300)
 
