@@ -9,7 +9,7 @@ Affiliation:
 Purpose of this code:
 Generates (single run) the data and the plots for the larval growth profile over time, and boxplots for time to wandering and mass at wandering, under uncrowded conditions, using the BASE model without waste (see Manuscript/chapter 6 in thesis).
 
-NOTE: Please change the required directories for saving/reading data!!!
+Change the plot save directory as required.
 '''
 
 import numpy as np
@@ -61,16 +61,9 @@ Mass_mean = np.mean(Massarray, axis=1)
 Mass_std = np.std(Massarray, axis=1)
 
 
-# # Mass plot
-# plt.plot(np.arange(Time), Massarray)
-# plt.ylabel("Larval Mass (v-ug)")
-# plt.xlabel("Time (v-hrs)")
-# plt.hlines(180, 0, Time, 'r')
-# plt.xlim(0, Time)
-# plt.ylim(0, 650)
-# plt.show()
+# Font Arial used for manuscript plots
 
-sns.set_theme(style='white', font = 'Arial', rc = {
+sns.set_theme(style='white', rc = {
     'axes.spines.right' : False,
     'axes.spines.top' : False,
     'xtick.bottom' : True,
@@ -138,5 +131,5 @@ for axis in ['left', 'bottom']:
 plt.tight_layout()
 
 
-# fig.savefig('G:/My Drive/EBL - Ph.D/Simulations/SingleGen for Manuscript/Results/Plots/BaseUncrowdGrowth.png', dpi=300)
-# fig2.savefig('G:/My Drive/EBL - Ph.D/Simulations/SingleGen for Manuscript/Results/Plots/BaseUncrowdDevMass.png', dpi=300)
+# fig.savefig('Results/Plots/BaseUncrowdGrowth.png', dpi=300)
+# fig2.savefig('Results/Plots/BaseUncrowdDevMass.png', dpi=300)
