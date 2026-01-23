@@ -23,11 +23,9 @@ import numpy as np
 
 Total_Data = pd.read_excel('Results/Compiled_Total30.xlsx', sheet_name = 'TotalData')
 
+# Arial font used for manuscript plots
 
-# Total_Data['vWander'] = np.log(Total_Data['vWander'])
-# Total_Data['vMass'] = np.log(Total_Data['vMass'])
-
-sns.set_theme(style='white', font = 'Arial', rc = {
+sns.set_theme(style='white', rc = {
     'axes.spines.right' : False,
     'axes.spines.top' : False,
     'xtick.bottom' : True,
