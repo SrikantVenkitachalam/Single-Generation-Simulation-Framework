@@ -139,5 +139,5 @@ for axis in ['left', 'bottom']:
 plt.tight_layout()
 
 
-fig.savefig('G:/My Drive/EBL - Ph.D/Simulations/SingleGen for Manuscript/Results/Plots/ExpandedUncrowdGrowth.png', dpi=300)
-fig2.savefig('G:/My Drive/EBL - Ph.D/Simulations/SingleGen for Manuscript/Results/Plots/ExpandedUncrowdDevMass.png', dpi=300)
+fig.savefig('Results/Plots/ExpandedUncrowdGrowth.png', dpi=300)
+fig2.savefig('Results/Plots/ExpandedUncrowdDevMass.png', dpi=300)

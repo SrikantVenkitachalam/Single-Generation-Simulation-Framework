@@ -229,6 +229,6 @@ for axis in ['left', 'bottom']:
     ax3.spines[axis].set_linewidth(2)
     
 
-fig1.savefig('G:/My Drive/EBL - Ph.D/Simulations/SingleGen for Manuscript/Results/Plots/BaseCrowdSurv.png', dpi=300)
-fig2.savefig('G:/My Drive/EBL - Ph.D/Simulations/SingleGen for Manuscript/Results/Plots/BaseCrowdDev.png', dpi=300)
-fig3.savefig('G:/My Drive/EBL - Ph.D/Simulations/SingleGen for Manuscript/Results/Plots/BaseCrowdMass.png', dpi=300)
+fig1.savefig('Results/Plots/BaseCrowdSurv.png', dpi=300)
+fig2.savefig('Results/Plots/BaseCrowdDev.png', dpi=300)
+fig3.savefig('Results/Plots/BaseCrowdMass.png', dpi=300)

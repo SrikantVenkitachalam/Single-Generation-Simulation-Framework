@@ -193,14 +193,14 @@ for i in range(11):
     ax1b[0].set_ylabel(yLabels[i])
 ################# SAVES #####################################################
 
-# fig1a.savefig('G:/My Drive/EBL - Ph.D/Simulations/SingleGen for Manuscript/Results/Plots/WastePermShallow.png', dpi=300)
+# fig1a.savefig('Results/Plots/WastePermShallow.png', dpi=300)
 
-# fig1b.savefig('G:/My Drive/EBL - Ph.D/Simulations/SingleGen for Manuscript/Results/Plots/WastePermDeep.png', dpi=300)
+# fig1b.savefig('Results/Plots/WastePermDeep.png', dpi=300)
 
-# fig2a.savefig('G:/My Drive/EBL - Ph.D/Simulations/SingleGen for Manuscript/Results/Plots/DigDepthShallow.png', dpi=300)
+# fig2a.savefig('Results/Plots/DigDepthShallow.png', dpi=300)
 
-# fig2b.savefig('G:/My Drive/EBL - Ph.D/Simulations/SingleGen for Manuscript/Results/Plots/DigDepthDeep.png', dpi=300)
+# fig2b.savefig('Results/Plots/DigDepthDeep.png', dpi=300)
 
-# fig3a.savefig('G:/My Drive/EBL - Ph.D/Simulations/SingleGen for Manuscript/Results/Plots/SAOccShallow.png', dpi=300)
+# fig3a.savefig('Results/Plots/SAOccShallow.png', dpi=300)
 
-# fig3b.savefig('G:/My Drive/EBL - Ph.D/Simulations/SingleGen for Manuscript/Results/Plots/SAOccDeep.png', dpi=300)
+# fig3b.savefig('Results/Plots/SAOccDeep.png', dpi=300)

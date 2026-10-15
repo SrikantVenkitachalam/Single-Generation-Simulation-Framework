@@ -105,60 +105,60 @@ from Traits import TraitGen
 
 
 
-# np.save("G:\My Drive\EBL - Ph.D\Simulations\SingleGen for Manuscript\Results\Cult3mLShallow.npy", Cult3mLShallow)
+# np.save("Results\Cult3mLShallow.npy", Cult3mLShallow)
 
-# np.save("G:\My Drive\EBL - Ph.D\Simulations\SingleGen for Manuscript\Results\Cult3mLDeep.npy", Cult3mLDeep)
+# np.save("Results\Cult3mLDeep.npy", Cult3mLDeep)
 
-# np.savetxt("G:\My Drive\EBL - Ph.D\Simulations\SingleGen for Manuscript\Results\TraitmeanShallowSurv.csv", Trait_mean_Shallow_Surv,
+# np.savetxt("Results\TraitmeanShallowSurv.csv", Trait_mean_Shallow_Surv,
 #            delimiter=",")
 
-Trait_mean_Shallow_Surv = np.loadtxt("G:\My Drive\EBL - Ph.D\Simulations\SingleGen for Manuscript\Results\TraitmeanShallowSurv.csv",
+Trait_mean_Shallow_Surv = np.loadtxt("Results\TraitmeanShallowSurv.csv",
                                      delimiter=",")
 
-# np.savetxt("G:\My Drive\EBL - Ph.D\Simulations\SingleGen for Manuscript\Results\TraitmeanShallowMort.csv", Trait_mean_Shallow_Mort,
+# np.savetxt("Results\TraitmeanShallowMort.csv", Trait_mean_Shallow_Mort,
 #            delimiter=",")
 
-Trait_mean_Shallow_Mort = np.loadtxt("G:\My Drive\EBL - Ph.D\Simulations\SingleGen for Manuscript\Results\TraitmeanShallowMort.csv",
+Trait_mean_Shallow_Mort = np.loadtxt("Results\TraitmeanShallowMort.csv",
                                      delimiter=",")
 
-# np.savetxt("G:\My Drive\EBL - Ph.D\Simulations\SingleGen for Manuscript\Results\TraitmeanDeepSurv.csv", Trait_mean_Deep_Surv,
+# np.savetxt("Results\TraitmeanDeepSurv.csv", Trait_mean_Deep_Surv,
 #            delimiter=",")
 
-Trait_mean_Deep_Surv = np.loadtxt("G:\My Drive\EBL - Ph.D\Simulations\SingleGen for Manuscript\Results\TraitmeanDeepSurv.csv", delimiter=",")
+Trait_mean_Deep_Surv = np.loadtxt("Results\TraitmeanDeepSurv.csv", delimiter=",")
 
-# np.savetxt("G:\My Drive\EBL - Ph.D\Simulations\SingleGen for Manuscript\Results\TraitmeanDeepMort.csv", Trait_mean_Deep_Mort,
+# np.savetxt("Results\TraitmeanDeepMort.csv", Trait_mean_Deep_Mort,
 #            delimiter=",")
 
-Trait_mean_Deep_Mort = np.loadtxt("G:\My Drive\EBL - Ph.D\Simulations\SingleGen for Manuscript\Results\TraitmeanDeepMort.csv", delimiter=",")
+Trait_mean_Deep_Mort = np.loadtxt("Results\TraitmeanDeepMort.csv", delimiter=",")
 
 
-# np.save("G:\My Drive\EBL - Ph.D\Simulations\SingleGen for Manuscript\Results\TraitarrayDeepShallow.npy", Trait_array)
+# np.save("Results\TraitarrayDeepShallow.npy", Trait_array)
 
-Trait_array = np.load("G:\My Drive\EBL - Ph.D\Simulations\SingleGen for Manuscript\Results\TraitarrayDeepShallow.npy", allow_pickle = False)
+Trait_array = np.load("Results\TraitarrayDeepShallow.npy", allow_pickle = False)
 
 # DevShallow = np.log10(Cult3mLShallow.Dev_time)
 
-# np.savetxt("G:\My Drive\EBL - Ph.D\Simulations\SingleGen for Manuscript\Results\DevShallow.csv", DevShallow, delimiter=",")
+# np.savetxt("Results\DevShallow.csv", DevShallow, delimiter=",")
 
-DevShallow = np.loadtxt("G:\My Drive\EBL - Ph.D\Simulations\SingleGen for Manuscript\Results\DevShallow.csv", delimiter=",")
+DevShallow = np.loadtxt("Results\DevShallow.csv", delimiter=",")
 
 # DevDeep = np.log10(Cult3mLDeep.Dev_time)
 
-# np.savetxt("G:\My Drive\EBL - Ph.D\Simulations\SingleGen for Manuscript\Results\DevDeep.csv", DevDeep, delimiter=",")
+# np.savetxt("Results\DevDeep.csv", DevDeep, delimiter=",")
 
-DevDeep = np.loadtxt("G:\My Drive\EBL - Ph.D\Simulations\SingleGen for Manuscript\Results\DevDeep.csv", delimiter=",")
+DevDeep = np.loadtxt("Results\DevDeep.csv", delimiter=",")
 
 # MortShallow = np.log10(Cult3mLShallow.Mort_time)
 
-# np.savetxt("G:\My Drive\EBL - Ph.D\Simulations\SingleGen for Manuscript\Results\MortShallow.csv", MortShallow, delimiter=",")
+# np.savetxt("Results\MortShallow.csv", MortShallow, delimiter=",")
 
-MortShallow = np.loadtxt("G:\My Drive\EBL - Ph.D\Simulations\SingleGen for Manuscript\Results\MortShallow.csv", delimiter=",")
+MortShallow = np.loadtxt("Results\MortShallow.csv", delimiter=",")
 
 # MortDeep = np.log10(Cult3mLDeep.Mort_time)
 
-# np.savetxt("G:\My Drive\EBL - Ph.D\Simulations\SingleGen for Manuscript\Results\MortDeep.csv", MortDeep, delimiter=",")
+# np.savetxt("Results\MortDeep.csv", MortDeep, delimiter=",")
 
-MortDeep = np.loadtxt("G:\My Drive\EBL - Ph.D\Simulations\SingleGen for Manuscript\Results\MortDeep.csv", delimiter=",")
+MortDeep = np.loadtxt("Results\MortDeep.csv", delimiter=",")
 
 
 ####################### Plot Info. ###########################################
@@ -315,8 +315,8 @@ for i in range(11):
     
     ################# SAVES ##################################################
     
-    fig1.savefig('G:/My Drive/EBL - Ph.D/Simulations/SingleGen for Manuscript/Results/Plots/Trait plots/'+yLabels[i]+' TimeSingle.png', dpi=300)
+    fig1.savefig('Results/Plots/Trait plots/'+yLabels[i]+' TimeSingle.png', dpi=300)
     
-    fig2.savefig('G:/My Drive/EBL - Ph.D/Simulations/SingleGen for Manuscript/Results/Plots/Trait plots/'+yLabels[i]+' Single.png', dpi=300)
+    fig2.savefig('Results/Plots/Trait plots/'+yLabels[i]+' Single.png', dpi=300)
     
-    fig3.savefig('G:/My Drive/EBL - Ph.D/Simulations/SingleGen for Manuscript/Results/Plots/Trait plots/'+yLabels[i]+' MultiRun.png', dpi=300)
+    fig3.savefig('Results/Plots/Trait plots/'+yLabels[i]+' MultiRun.png', dpi=300)

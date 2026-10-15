@@ -21,7 +21,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
 
-Total_Data = pd.read_excel("G:\My Drive\EBL - Ph.D\Simulations\SingleGen for Manuscript\Results\BaseModelFullFramework\BaseModelCompiled_data_Full.xlsx", sheet_name = 'Total Data')
+Total_Data = pd.read_excel("Results\BaseModelFullFramework\BaseModelCompiled_data_Full.xlsx", sheet_name = 'Total Data')
 
 
 # Total_Data['vWander'] = np.log(Total_Data['vWander'])
@@ -373,36 +373,36 @@ ax13.set_ylabel("Variance Dry Mass")
 ax14.set_ylabel("Variance Dry Mass")
 ax15.set_ylabel("Variance Dry Mass")
 
-# fig1.savefig('G:/My Drive/EBL - Ph.D/Simulations/SingleGen for Manuscript/Results/Plots/BaseFull/BaseSurvMainEffHeight.png', dpi=300)
+# fig1.savefig('Results/Plots/BaseFull/BaseSurvMainEffHeight.png', dpi=300)
 
-# fig2.savefig('G:/My Drive/EBL - Ph.D/Simulations/SingleGen for Manuscript/Results/Plots/BaseFull/BaseSurvMainEffEggs.png', dpi=300)
+# fig2.savefig('Results/Plots/BaseFull/BaseSurvMainEffEggs.png', dpi=300)
 
-# fig3.savefig('G:/My Drive/EBL - Ph.D/Simulations/SingleGen for Manuscript/Results/Plots/BaseFull/BaseSurvMainEffSA.png', dpi=300)
+# fig3.savefig('Results/Plots/BaseFull/BaseSurvMainEffSA.png', dpi=300)
 
-# fig4.savefig('G:/My Drive/EBL - Ph.D/Simulations/SingleGen for Manuscript/Results/Plots/BaseFull/BasemDevMainEffHeight.png', dpi=300)
+# fig4.savefig('Results/Plots/BaseFull/BasemDevMainEffHeight.png', dpi=300)
 
-# fig5.savefig('G:/My Drive/EBL - Ph.D/Simulations/SingleGen for Manuscript/Results/Plots/BaseFull/BasemDevMainEffEggs.png', dpi=300)
+# fig5.savefig('Results/Plots/BaseFull/BasemDevMainEffEggs.png', dpi=300)
 
-# fig6.savefig('G:/My Drive/EBL - Ph.D/Simulations/SingleGen for Manuscript/Results/Plots/BaseFull/BasemDevMainEffSA.png', dpi=300)
+# fig6.savefig('Results/Plots/BaseFull/BasemDevMainEffSA.png', dpi=300)
 
-# fig7.savefig('G:/My Drive/EBL - Ph.D/Simulations/SingleGen for Manuscript/Results/Plots/BaseFull/BasemMassMainEffHeight.png', dpi=300)
+# fig7.savefig('Results/Plots/BaseFull/BasemMassMainEffHeight.png', dpi=300)
 
-# fig8.savefig('G:/My Drive/EBL - Ph.D/Simulations/SingleGen for Manuscript/Results/Plots/BaseFull/BasemMassMainEffEggs.png', dpi=300)
+# fig8.savefig('Results/Plots/BaseFull/BasemMassMainEffEggs.png', dpi=300)
 
-# fig9.savefig('G:/My Drive/EBL - Ph.D/Simulations/SingleGen for Manuscript/Results/Plots/BaseFull/BasemMassMainEffSA.png', dpi=300)
-
-
-# fig10.savefig('G:/My Drive/EBL - Ph.D/Simulations/SingleGen for Manuscript/Results/Plots/BaseFull/BasevDevMainEffHeight.png', dpi=300)
-
-# fig11.savefig('G:/My Drive/EBL - Ph.D/Simulations/SingleGen for Manuscript/Results/Plots/BaseFull/BasevDevMainEffEggs.png', dpi=300)
-
-# fig12.savefig('G:/My Drive/EBL - Ph.D/Simulations/SingleGen for Manuscript/Results/Plots/BaseFull/BasevDevMainEffSA.png', dpi=300)
+# fig9.savefig('Results/Plots/BaseFull/BasemMassMainEffSA.png', dpi=300)
 
 
-# fig13.savefig('G:/My Drive/EBL - Ph.D/Simulations/SingleGen for Manuscript/Results/Plots/BaseFull/BasevMassMainEffHeight.png', dpi=300)
+# fig10.savefig('Results/Plots/BaseFull/BasevDevMainEffHeight.png', dpi=300)
 
-# fig14.savefig('G:/My Drive/EBL - Ph.D/Simulations/SingleGen for Manuscript/Results/Plots/BaseFull/BasevMassMainEffEggs.png', dpi=300)
+# fig11.savefig('Results/Plots/BaseFull/BasevDevMainEffEggs.png', dpi=300)
 
-# fig15.savefig('G:/My Drive/EBL - Ph.D/Simulations/SingleGen for Manuscript/Results/Plots/BaseFull/BasevMassMainEffSA.png', dpi=300)
+# fig12.savefig('Results/Plots/BaseFull/BasevDevMainEffSA.png', dpi=300)
+
+
+# fig13.savefig('Results/Plots/BaseFull/BasevMassMainEffHeight.png', dpi=300)
+
+# fig14.savefig('Results/Plots/BaseFull/BasevMassMainEffEggs.png', dpi=300)
+
+# fig15.savefig('Results/Plots/BaseFull/BasevMassMainEffSA.png', dpi=300)
 
 

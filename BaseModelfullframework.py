@@ -24,7 +24,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
 
-Total_Data = pd.read_excel("G:\My Drive\EBL - Ph.D\Simulations\SingleGen for Manuscript\Results\BaseModelFullFramework\BaseModelCompiled_data_Full.xlsx", sheet_name = 'Total Data')
+Total_Data = pd.read_excel("Results\BaseModelFullFramework\BaseModelCompiled_data_Full.xlsx", sheet_name = 'Total Data')
 
 
 # Total_Data['vWander'] = np.log(Total_Data['vWander'])
@@ -191,15 +191,15 @@ ax5[1, 0].set_ylabel("Variance Dry Mass (ug^2)")
 # fig1.tight_layout()
 
 
-# fig1.savefig('G:/My Drive/EBL - Ph.D/Simulations/SingleGen for Manuscript/Results/Plots/BaseFull/BaseSurvFullFrame.png', dpi=300)
+# fig1.savefig('Results/Plots/BaseFull/BaseSurvFullFrame.png', dpi=300)
 
-# fig2.savefig('G:/My Drive/EBL - Ph.D/Simulations/SingleGen for Manuscript/Results/Plots/BaseFull/BaseMDevFullFrame.png', dpi=300)
+# fig2.savefig('Results/Plots/BaseFull/BaseMDevFullFrame.png', dpi=300)
 
-# fig3.savefig('G:/My Drive/EBL - Ph.D/Simulations/SingleGen for Manuscript/Results/Plots/BaseFull/BaseVDevFullFrame.png', dpi=300)
+# fig3.savefig('Results/Plots/BaseFull/BaseVDevFullFrame.png', dpi=300)
 
-# fig4.savefig('G:/My Drive/EBL - Ph.D/Simulations/SingleGen for Manuscript/Results/Plots/BaseFull/BaseMMassFullFrame.png', dpi=300)
+# fig4.savefig('Results/Plots/BaseFull/BaseMMassFullFrame.png', dpi=300)
 
-# fig5.savefig('G:/My Drive/EBL - Ph.D/Simulations/SingleGen for Manuscript/Results/Plots/BaseFull/BaseVMassFullFrame.png', dpi=300)
+# fig5.savefig('Results/Plots/BaseFull/BaseVMassFullFrame.png', dpi=300)
 
 
 

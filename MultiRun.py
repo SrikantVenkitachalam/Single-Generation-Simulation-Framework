@@ -266,10 +266,8 @@ if __name__ == '__main__':
         
         CompTemp2 = pd.DataFrame(CompTemp2)
         
-        CompTemp2.to_csv("G:\My Drive\EBL - Ph.D\Simulations\SingleGen for Manuscript\Results\CompiledDataRep"+str(i)+".csv")
+        CompTemp2.to_csv("Results\CompiledDataRep"+str(i)+".csv")
         
-        # np.save("D:\SingleGenSimResults\CultureRep"+str(i), CultTemp)
-        # np.save("D:\SingleGenSimResults\TraitsRep"+str(i), TraitTemp)
         
         Compiled_full = pd.concat([Compiled_full, CompTemp2],
                                  ignore_index=True)
@@ -281,4 +279,4 @@ if __name__ == '__main__':
         Time_total = Tend-Tstart
         print("Replicate: ", i, "; Time taken = ", Time_total, "s")
         
-    Compiled_full.to_excel("G:\My Drive\EBL - Ph.D\Simulations\SingleGen for Manuscript\Results\Compiled_data_Full"+ str(Replicates[0]) + str(Replicates[-1]) + ".xlsx")
+    Compiled_full.to_excel("Results\Compiled_data_Full"+ str(Replicates[0]) + str(Replicates[-1]) + ".xlsx")

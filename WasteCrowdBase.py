@@ -231,6 +231,6 @@ for axis in ['left', 'bottom']:
     ax3.spines[axis].set_linewidth(2)
     
 
-# fig1.savefig('G:/My Drive/EBL - Ph.D/Simulations/SingleGen for Manuscript/Results/Plots/WasteCrowdSurv.png', dpi=300)
-# fig2.savefig('G:/My Drive/EBL - Ph.D/Simulations/SingleGen for Manuscript/Results/Plots/WasteCrowdDev.png', dpi=300)
-# fig3.savefig('G:/My Drive/EBL - Ph.D/Simulations/SingleGen for Manuscript/Results/Plots/WasteCrowdMass.png', dpi=300)
+# fig1.savefig('Results/Plots/WasteCrowdSurv.png', dpi=300)
+# fig2.savefig('Results/Plots/WasteCrowdDev.png', dpi=300)
+# fig3.savefig('Results/Plots/WasteCrowdMass.png', dpi=300)

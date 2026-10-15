@@ -19,7 +19,7 @@ import numpy as np
 from sklearn.linear_model import LinearRegression
 import scipy
 
-Total_Data = pd.read_excel('G:/My Drive/EBL - Ph.D/Simulations/SingleGen for Manuscript/Results/Compiled_Total30.xlsx', sheet_name = 'TotalData')
+Total_Data = pd.read_excel('Results/Compiled_Total30.xlsx', sheet_name = 'TotalData')
 
 
 sns.set_theme(style='white', font = 'Arial', rc = {
@@ -354,22 +354,22 @@ ax8.set_ylabel('Variance Time to Wandering (hrs^2)')
 
 
 
-# fig1.savefig('G:/My Drive/EBL - Ph.D/Simulations/SingleGen for Manuscript/Results/Plots/SurvTotEffComp.png', dpi=300)
+# fig1.savefig('Results/Plots/SurvTotEffComp.png', dpi=300)
 
-# fig2.savefig('G:/My Drive/EBL - Ph.D/Simulations/SingleGen for Manuscript/Results/Plots/SurvTotReg.png', dpi=300)
+# fig2.savefig('Results/Plots/SurvTotReg.png', dpi=300)
 
-fig3.savefig('G:/My Drive/EBL - Ph.D/Simulations/SingleGen for Manuscript/Results/Plots/LogSurvTotReg.png', dpi=300)
-
-
-fig4.savefig('G:/My Drive/EBL - Ph.D/Simulations/SingleGen for Manuscript/Results/Plots/LogSurvEffReg.png', dpi=300)
-
-# fig5.savefig('G:/My Drive/EBL - Ph.D/Simulations/SingleGen for Manuscript/Results/Plots/mWanderTotReg.png', dpi=300)
-
-# fig6.savefig('G:/My Drive/EBL - Ph.D/Simulations/SingleGen for Manuscript/Results/Plots/mWanderEffReg.png', dpi=300)
+fig3.savefig('Results/Plots/LogSurvTotReg.png', dpi=300)
 
 
-# fig7.savefig('G:/My Drive/EBL - Ph.D/Simulations/SingleGen for Manuscript/Results/Plots/vWanderTotEffComp.png', dpi=300)
+fig4.savefig('Results/Plots/LogSurvEffReg.png', dpi=300)
 
-# fig8.savefig('G:/My Drive/EBL - Ph.D/Simulations/SingleGen for Manuscript/Results/Plots/vWanderTotReg.png', dpi=300)
+# fig5.savefig('Results/Plots/mWanderTotReg.png', dpi=300)
 
-# fig9.savefig('G:/My Drive/EBL - Ph.D/Simulations/SingleGen for Manuscript/Results/Plots/vWanderEffReg.png', dpi=300)
+# fig6.savefig('Results/Plots/mWanderEffReg.png', dpi=300)
+
+
+# fig7.savefig('Results/Plots/vWanderTotEffComp.png', dpi=300)
+
+# fig8.savefig('Results/Plots/vWanderTotReg.png', dpi=300)
+
+# fig9.savefig('Results/Plots/vWanderEffReg.png', dpi=300)
